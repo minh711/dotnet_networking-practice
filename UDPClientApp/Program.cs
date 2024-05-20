@@ -34,8 +34,8 @@ class Program
                 }
             }
         }
-        catch (SocketException e) { 
-            Console.WriteLine(e.Message)
+        catch (SocketException e) {
+            Console.WriteLine(e.Message);
         }
         finally
         {
