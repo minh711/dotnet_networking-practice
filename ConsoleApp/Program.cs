@@ -13,10 +13,12 @@ partial class Program
         URIDemo uriDemo = new URIDemo();
         WebRequestResponse webRequestResponse = new WebRequestResponse();
         HttpClientDemo httpClientDemo = new HttpClientDemo();
+        DNSDemo dnsDemo = new DNSDemo();
 
         //uriDemo.Start();
         //webRequestResponse.Start();
-        await httpClientDemo.Start(client);
+        //await httpClientDemo.Start(client);
+        dnsDemo.Start();
     }
 }
 
